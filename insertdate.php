@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "stagingmode", "abcd1234", "eja");
+$db = mysqli_connect("us-cdbr-east-02.cleardb.com", "b6493e740390c8", "4e6ff6a6", "heroku_50e9ff92ea1da4e");
 
 $msg = "";
 if (isset($_POST['upload'])) {

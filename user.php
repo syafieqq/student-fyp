@@ -13,10 +13,10 @@
 
 class User
 {
-    private $dbHost     = "localhost";
-    private $dbUsername = "stagingmode";
-    private $dbPassword = "abcd1234";
-    private $dbName     = "eja";
+    private $dbHost = "us-cdbr-east-02.cleardb.com";
+    private $dbUsername = "b6493e740390c8";
+    private $dbPassword = "4e6ff6a6";
+    private $dbName = "heroku_50e9ff92ea1da4e";
     private $userTbl    = "users";
 
     public function __construct()

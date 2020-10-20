@@ -54,7 +54,7 @@ if (isset($_SESSION['login_user2'])) {
 ?>
 
 <?php
-$connect = mysqli_connect("localhost", "stagingmode", "abcd1234", "eja");
+$connect = mysqli_connect("us-cdbr-east-02.cleardb.com", "b6493e740390c8", "4e6ff6a6", "heroku_50e9ff92ea1da4e");
 $sql = "SELECT distinct Orders.Order_ID,Orders.foodname,Orders.price,Orders.quantity,Orders.order_date,Orders.username,Orders.total,Orders.gtotal, Locations.lat,Locations.lng,Locations.description,Locations.location_status,Locations.username FROM Orders left outer JOIN Locations ON Orders.username=locations.username where locations.username='$login_user2'";
 
 $result = mysqli_query($connect, $sql);

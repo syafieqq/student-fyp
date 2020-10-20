@@ -1,17 +1,17 @@
 <?php
 //address of the server where db is installed
-$servername = "localhost";
+$servername = "us-cdbr-east-02.cleardb.com";
 
 //username to connect to the db
 //the default value is root
-$username = "stagingmode";
+$username = "b6493e740390c8";
 
 //password to connect to the db
 //this is the value you would have specified during installation of WAMP stack
-$password = "abcd1234";
+$password = "4e6ff6a6";
 
 //name of the db under which the table is created
-$dbName = "eja";
+$dbName = "heroku_50e9ff92ea1da4e";
 
 //establishing the connection to the db.
 $conn = new mysqli($servername, $username, $password, $dbName);
