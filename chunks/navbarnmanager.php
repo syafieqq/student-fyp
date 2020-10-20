@@ -1,0 +1,61 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['login_user2'])){
+header("location:: indexlogin.php"); 
+}
+
+?><section class="fnavbar">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+		<div class="navbar-fixed">
+		<nav>
+		    <div class="nav-wrapper">
+				<img src="images/uc.jpg" alt="" width="314" height="64" />
+		          
+		      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+			  
+			  
+		
+				
+				 <li><a href="chart_sampledaily.php" class="hvr-grow">Daily Sales</a></li>
+				  <li><a href="chart_sample.php" class="hvr-grow">Monthly Sales</a></li>
+				  
+				  
+				
+				 <li><a href="viewproductmanager.php" class="hvr-grow">Products</a></li>
+				 
+				
+				 
+				 
+				
+		       
+		 
+
+				
+				 <li><a href="indexx.php?logoutSubmit=1" class="hvr-grow">Logout</a></li>
+              </a></li>
+            
+				
+			
+	
+				  <style>
+				  .nav-wrapper
+				  {background-color: gold;
+					  }
+				  .hvr-grow
+					  {color:#010101;}
+				  </style>
+
+		        
+		        
+		      </ul>
+	      </div>
+		  </nav>
+		</div>
+
+	</section>
