@@ -43,7 +43,7 @@ header("location:: indexlogin.php");
 	</a></li>
    <li><a href="contactus.php" class="hvr-grow"><img src="messages.svg"alt="https://www.flaticon.com/authors/freepik" width="40px" height="40px" > </a></li>
 			
-				  <li><a href="profile.php"  class="hvr-grow"><span ></span> <img src="hand.svg"alt="https://www.flaticon.com/authors/freepik" width="40px" height="40px" > <?php echo $_SESSION['login_user2']; ?> </a></li>
+				  <li><a href="profile.php"><span class="hvr-grow"></span><img src="hand.svg"alt="https://www.flaticon.com/authors/freepik" width="40px" height="40px" > <?php echo $_SESSION['login_user2']; ?> </a></li>
 				  
 			
 

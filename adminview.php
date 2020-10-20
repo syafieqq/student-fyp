@@ -35,9 +35,11 @@ body{
 <?php require('chunks/indexlainnn.php'); ?>
 <?php 
  
-    require_once("connect.php");
-    $query = " select * from users ";
-    $result = mysqli_query($conn,$query);
+    require_once("connection.php");
+    $conn = Connect();
+
+$sql = "SELECT * FROM users";
+$result = mysqli_query($conn, $sql);
  
 ?>
  <BR>

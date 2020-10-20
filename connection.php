@@ -2,7 +2,6 @@
 
 function Connect()
 {
-
 	$dbhost = "us-cdbr-east-02.cleardb.com";
 	$dbuser = "b6493e740390c8";
 	$dbpass = "4e6ff6a6";
@@ -13,3 +12,4 @@ function Connect()
 
 	return $conn;
 }
+?>

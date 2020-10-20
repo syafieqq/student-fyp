@@ -88,9 +88,11 @@ button:hover:before,button:hover:after{
 <br>
 <?php 
  
-    require_once("connect.php");
-    $query = " select * from contactus ";
-    $result = mysqli_query($conn,$query);
+    require_once("connection.php");
+    $conn = Connect();
+
+$sql = "SELECT * FROM contactus";
+$result = mysqli_query($conn, $sql);
  
 ?>
  

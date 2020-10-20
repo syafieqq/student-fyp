@@ -83,7 +83,7 @@ if(!isset($_SESSION['login_user2'])){
 header("location:: indexlogin.php"); 
 }
 extract($_REQUEST);
-include("connectionn.php");
+include("connection.php");
 $gtotal=array();
 $ar=array();
 $total=0;
@@ -91,16 +91,18 @@ $total=0;
  if(isset($_SESSION['login_user2']))
  {
  $login_user2=$_SESSION['login_user2'];
- $qq=mysqli_query($con,"select * from users where username='$login_user2'");
-	 $qqr= mysqli_fetch_array($qq);
- }
+ 
+$conn = Connect();
+
+$sql = "select * from users where username='$login_user2'";
+$result = mysqli_query($conn, $sql); }
 
 
 
  
  
  //update section
-  $cust_details=mysqli_query($con,"select * from users where username='$login_user2'");
+  $cust_details=mysqli_query($conn,"select * from users where username='$login_user2'");
   $det_res=mysqli_fetch_array($cust_details);
  
   $username=$det_res['username'];
@@ -113,7 +115,7 @@ $total=0;
   if(isset($update))
   {
 	   
-	 if(mysqli_query($con,"update users set firstname='$name',address='$add',city='$c',state='$s',mobile='$mob',password='$pswd' where username='$username'"))
+	 if(mysqli_query($conn,"update users set username='$username',address='$add',city='$c',mobile='$mob',password='$pswd' where username='$username'"))
       {
 	   header("location:customerupdatee.php");
 	  }
