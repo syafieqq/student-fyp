@@ -264,8 +264,8 @@ body {
                                    <img src="images/A1.gif" class="priceee" alt="" style="width:250px;height:270px;">
 
 <audio controls class="button button2" width="10%";>
-  <source src="a.OGG" type="audio/ogg">
-  <source src="a.OGG" type="audio/mpeg">
+  <source src="a.ogg" type="audio/ogg">
+  <source src="a.ogg" type="audio/mpeg">
 
 </audio>
 
@@ -296,8 +296,8 @@ body {
                                    <img src="E1.gif" class="priceee" alt="" style="width:250px;height:270px;">
 
 <audio controls class="button button2" width="10%";>
-  <source src="E.OGG" type="audio/ogg">
-  <source src="E.OGG" type="audio/mpeg">
+  <source src="E.ogg" type="audio/ogg">
+  <source src="E.ogg" type="audio/mpeg">
 
 </audio>
 
@@ -322,8 +322,8 @@ body {
 <img src="E1.gif" class="priceee" alt="" style="width:250px;height:270px;">
 
 <audio controls class="button button2" width="10%";>
-  <source src="E2.OGG" type="audio/ogg">
-  <source src="E2.OGG" type="audio/mpeg">
+  <source src="E2.ogg" type="audio/ogg">
+  <source src="E2.ogg" type="audio/mpeg">
 
 </audio>
 
@@ -371,8 +371,8 @@ body {
                                    <img src="i1.gif" class="priceee" alt="" style="width:250px;height:270px;">
 
 <audio controls class="button button2" width="10%";>
-  <source src="I.OGG" type="audio/ogg">
-  <source src="I.OGG" type="audio/mpeg">
+  <source src="I.ogg" type="audio/ogg">
+  <source src="I.ogg" type="audio/mpeg">
 
 </audio>
 
@@ -403,8 +403,8 @@ body {
                                    <img src="O1.gif" class="priceee" alt="" style="width:250px;height:270px;">
 
 <audio controls class="button button2" width="10%";>
-  <source src="O.OGG" type="audio/ogg">
-  <source src="O.OGG" type="audio/mpeg">
+  <source src="O.ogg" type="audio/ogg">
+  <source src="O.ogg" type="audio/mpeg">
 
 </audio>
 
@@ -429,8 +429,8 @@ body {
 <img src="U1.gif" class="priceee" alt="" style="width:250px;height:270px;">
 
 <audio controls class="button button2" width="10%";>
-  <source src="U.OGG" type="audio/ogg">
-  <source src="U.OGG" type="audio/mpeg">
+  <source src="U.ogg" type="audio/ogg">
+  <source src="U.ogg" type="audio/mpeg">
 
 </audio>
 
