@@ -13,7 +13,7 @@ if (mysqli_connect_errno()) {
 
 <head>
   <meta charset="UTF-8">
-  <title>Uncle Jack</title>
+  <title>Eja</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- <meta http-equiv="refresh" content="1"> -->
